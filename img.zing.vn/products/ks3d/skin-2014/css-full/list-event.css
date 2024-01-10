@@ -1,0 +1,76 @@
+.EventList {
+	overflow: hidden;
+}
+	.EventList li{
+		display: block;
+		float: left;
+		width: 198px;
+		height: 305px;
+		background: #1f1f1f;
+		margin: 10px 20px;
+		overflow: hidden;
+		border: 1px solid #131313;
+
+	}
+	.EventList li:hover{
+		border-color: red;
+	}
+
+	.EventList li:hover h3{
+		color: #e55b00;
+		border-color: #7e5e5e;
+	}
+
+	.EventList li:hover a.view-more{
+		background: url(../images/event-more-hov.png) right center  no-repeat;
+		color: #e55b00;
+	}
+	
+	.EventList li a{
+		text-decoration: none !important;
+	}
+
+	.EventList li.Last,.EventList li.First{
+		margin:10px 0;
+	}
+		.EventList li img {
+			border-bottom: 1px solid #131313;	
+		}
+		.EventList li .caption {
+			margin: 0 12px;
+		}
+		.EventList li h3 {
+			background: none;
+			font-size:  15px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #cab58a;
+			margin: 0;
+			padding: 5px 0 5px 0;
+			border-bottom: 2px solid #393939;
+			-webkit-transition: all .35s ease-in-out;
+		   -moz-transition: all .35s ease-in-out;
+		    -ms-transition: all .35s ease-in-out;
+		     -o-transition: all .35s ease-in-out;
+		        transition: all .35s ease-in-out;
+		}
+		.EventList li .time {
+			color: #848382;
+			background: url(../images/bg-event-time.jpg) left bottom  no-repeat;
+			display: block;
+			padding-bottom: 5px;
+		}
+		.EventList li .view-more {
+			display: block;
+			background:  url(../images/event-more-nor.png) right center  no-repeat;
+			height: 36px;
+			padding: 14px 0 0 0;
+			color: #cab58a;
+			text-decoration: none;
+			-webkit-transition: all .35s ease-in-out;
+		   -moz-transition: all .35s ease-in-out;
+		    -ms-transition: all .35s ease-in-out;
+		     -o-transition: all .35s ease-in-out;
+		        transition: all .35s ease-in-out;
+		}
+

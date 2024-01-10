@@ -1,0 +1,161 @@
+.Subpage #main-home {
+	background: url(../images/bg-subpage.jpg) #1b1b1c center top no-repeat;
+}
+	.column-left {
+		width: 269px;
+		float: left;
+		background: url(../images/bg-left.png) right bottom no-repeat;
+		padding: 0 0 300px 0;
+	}
+		.Subpage .control-abilities {
+			width: 100%;
+			height: 179px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.Subpage .control-abilities .btn-download{
+			height: 126px;
+			width: 269px;
+			background: url(../images/sub-btn-tai-game.png) center top;
+			margin: 0;
+		}
+		.Subpage .control-abilities .btn-download:hover{ 
+			background: url(../images/sub-btn-tai-game-hv.png) center top;
+		}
+		.Subpage .control-abilities .btn-download.off{
+			background-position: 0 -252px
+		}
+
+		.Subpage .control-abilities .btn-regis,.Subpage .control-abilities .btn-payment {
+			height: 53px;
+			background: url(../images/sub-regis-card.png) ;
+			width: 130px;
+			float: left;
+		}
+		.Subpage .control-abilities .btn-regis {		
+			background-position: 0 0;
+			margin: 0 0 0 8px;
+			width: 131px;
+		}
+		.Subpage .control-abilities .btn-regis:hover {			
+			background-position: 0 -53px;
+
+		}	
+		.Subpage .control-abilities .btn-regis.off:link,.Subpage .control-abilities .btn-regis.off:visited,.Subpage .control-abilities .btn-regis.off:hover{
+			background-position: 0 -106px;			
+		}	
+		.Subpage .control-abilities .btn-payment {
+			float: right;
+			background-position: -130px 0;
+		}
+		.Subpage .control-abilities .btn-payment:hover {			
+			background-position: -130px -53px;
+		}
+		.Subpage .control-abilities .btn-payment.off,.Subpage .control-abilities .btn-payment.off:hover {			
+			background-position: -130px -106px;
+		}
+
+		.Subpage .block-search {
+			width: 249px;
+			height: 56px;
+			padding: 26px 0 0 11px;
+			background: url(../images/sub-bg-search.jpg) ;
+			margin: 0 0 0 9px;
+			
+		}
+
+			.Subpage .block-search form.form-search{
+					background: none;
+					width: 100%
+			}
+				.Subpage .block-search form.form-search input[type="text"] {
+					width: 172px;
+					padding: 0 0 0 12px;
+					color: #a99a7b;
+				}
+				.Subpage .block-search form.form-search input[type="submit"] {
+					float: right;
+					margin-right: 11px;
+				}
+			.sub-nav {
+				width: 261px;				
+				margin: 0 0 0 8px;				
+				
+			}
+				.sub-nav .TitleNav {
+					width: 100%;
+					height: 70px;
+					background: url(../images/news-title.jpg);
+				}
+				.sub-nav .GuildTitleNav {
+					background: url(../images/guild-title.jpg);
+				}
+			.Subpage .main-banner {
+				width: 260px;
+				margin: 0 0 0 9px;
+				padding: 20px 0 0 0;
+				background: url(../images/bg-header.jpg) right top repeat-y;
+				height: 298px;
+			}	
+				.Subpage .main-banner .jcarousel-wrapper {
+					width: 247px;
+					height: 298px;
+				}
+				.Subpage .jcarousel {
+					height: 100%;
+				}
+				.Subpage .jcarousel img{
+					width: 245px;
+					height: 298px;
+				}
+
+	.container {
+		position:  relative;
+		/*overflow: hidden;*/
+		margin-top: 15px;
+		width: 969px;
+	}
+		.Content {
+			width: 700px;
+			float: right;			
+			/*overflow: hidden;*/
+		}
+			.StaticTopPanel {
+				width: 100%;
+				background: url(../images/bg-breadcrumd.png) center top;
+				height:  127px;
+			}
+			.content-top {
+				width: 100%;
+				background: url(../images/content-center.jpg) center 0 repeat-y;
+				position: relative;
+			}
+				.content-center {
+					width: 100%;
+					
+					min-height: 700px;
+					background: url(../images/content-top.jpg)  center 0 no-repeat   ;
+					margin: 0;	
+
+				}		
+					.content-bottom {						
+						width: 640px;
+						padding: 0 30px 150px 30px;
+						background: url(../images/content-bottom.jpg) center bottom no-repeat;		
+						min-height: 800px;		
+					}
+
+.btn-top-page{
+  display: block;
+  width: 32px;
+  height: 66px;
+  background: url('../images/btn-top.png') repeat scroll 0 0;
+  position: absolute;
+  right: -16px;
+  text-indent: -9999px;
+}
+
+.btn-top-page:hover{
+	background-position: -32px 0;
+}

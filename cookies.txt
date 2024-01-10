@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+ttl3d.zing.vn	TRUE	/	FALSE	1999999999	PHPSESSID	juuhjanj7g46jvjvsmug8t66l5
+ttl3d.zing.vn	TRUE	/	FALSE	1999999999	device_view	not_mobile
+zing.vn	TRUE	/	FALSE	1999999999	vngauth	deleted
+zing.vn	TRUE	/	FALSE	1999999999	uin	deleted
+zing.vn	TRUE	/	FALSE	1999999999	skey	deleted
+zing.vn	TRUE	/	FALSE	1999999999	acn	deleted
+zing.vn	TRUE	/	FALSE	1999999999	acs	deleted
+zing.vn	TRUE	/	FALSE	1999999999	ZAUTH	deleted
+zing.vn	TRUE	/	FALSE	1999999999	ZMES	deleted
+ttl3d.zing.vn	TRUE	/	FALSE	1999999999	isCacheProxy	1
+ttl3d.zing.vn	TRUE	/	FALSE	1999999999	SERVERID	gameapp7
+

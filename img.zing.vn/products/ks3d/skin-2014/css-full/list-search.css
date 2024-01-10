@@ -1,0 +1,26 @@
+#search-info {
+	background: url("../images/line-news.jpg") repeat-x scroll center bottom;
+font-size: 18px;
+padding-bottom: 8px;
+text-transform: uppercase;
+}
+	#search-info .item-total {
+		color: #fa6e15;
+	}
+#searchList {
+	overflow: hidden;
+}
+	#searchList  li{		
+		background: url("../images/content/dot.jpg") repeat-x  center bottom;
+		height: auto!important;
+		padding-bottom: 10px;
+		line-height: 25px;
+		color: #b2a68c;
+		font-weight: normal;
+	}
+	
+		#searchList  li a {
+			font-weight: bold;
+			padding: 0 0 10px 0;		
+
+		}
